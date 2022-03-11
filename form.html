@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Create form</title>
+    </head>
+
+    <body>
+        <h1>Creat a new form in HTML</h1>
+        <form action="http://www.example.com/review.php" method="post"> 
+            <!-- <p>
+                Fullname <br>
+                <input type="text" name="fullname" size="15" 
+                maxlength="300" required="required">
+            </p>          
+            <p>
+                Phone <br>
+                <input type="text" name="phone" size="15" 
+                oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"
+                required="required">
+            </p>
+            <p>
+                Gender <br>
+                <input type="radio" name="gender" value="male" checked="checked">
+                Male <br>
+                <input type="radio" name="gender" value="female">
+                Female <br>
+            </p> -->
+
+                        <!-- <p>
+                Select your iphone you want  <br>
+                <select name="iphone"> 
+                    <option value="ip13">Iphone 13</option>
+                    <option value="ip12">Iphone 12</option>
+                    <option value="ip11">Iphone 11</option>
+                </select>
+            </p>
+            <p>
+                Upload sample <br>
+                <input type="file" name="image" accept="image/x-png, image/gif, image/jpeg">
+                <br>
+                <input type="imagelink" name="imagelink">
+            </p>
+            <p>
+                Date submission <br>
+                <input type="date" name="date">
+            </p> -->
+
+
+            <fieldset>
+                <legend>Information</legend>
+                <label>
+                    Fullname <br>
+                    <input type="text" name="fullname" size="15" maxlength="300">
+                </label> <br>
+                <label>
+                    Phone <br>
+                    <input type="text" name="phone" size="15" 
+                oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+                </label> <br>
+                <label>
+                    Gender <br>
+                    <input type="radio" name="gender" value="male" checked="checked">
+                    Male <br>
+                    <input type="radio" name="gender" value="female">
+                    Female <br>
+                </label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Device chosen</legend>
+                <label>
+                    Select your iphone you want 
+                    <br>
+                    <select name="iphone">
+                        <option value="ip13">iPhone 13</option>
+                        <option value="ip12">iPhone 12</option>
+                        <option value="ip11">iPhone11</option>
+                    </select>
+                </label>
+                <br>
+                <label>
+                    Upload image
+                    <br>
+                    <input type="file" name="image" accept="image/x.png, imgae/gif, image/jpeg">
+                    <br>
+                    <input type="url" name="imagelink">
+                </label>
+                <br>
+                <label>
+                    Date submission
+                    <br>
+                    <input type="date" name="date">
+                </label>
+            </fieldset>
+            <br>
+            <input type="submit" value="Submit form">
+        </form>
+    </body>
+</html>
