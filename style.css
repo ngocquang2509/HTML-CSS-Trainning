@@ -14,8 +14,8 @@ input[type=text], select {
 
 input[type=submit] {
     width: 100%;
-    background-color: lightgreen;
-    color: black;
+    background-color: grey;
+    color: white;
     padding: 12px 20px;
     border-radius: 5px;
     cursor: pointer;
@@ -29,7 +29,7 @@ input[type=submit] {
     color: grey;
     font-size: 30px;
     background-image: url(https://lh3.googleusercontent.com/pw/ACtC-3eiuJm3Pfcm59IqKYz6210xTZkGIbWe2FlBdudDMODj057UzKpfoaJotBhSbmCdL3C7fVFa2hKa5-dAQ14SKFf329Uw_MZxgUT-hytrsIMMvI3bAbtuqDIwcHq1OBvhUQiwqnQeXk_pzItzd1-W_SmM=w2390-h1026-no?authuser=2);
-    height: 400px;
+    height: 700px;
     background-color: #cccccc;
 }
 
@@ -53,11 +53,25 @@ input[type=submit] {
 }
 
 .header a.active {
-    background-color: yellow;
-    color: black;
+    background-color: grey;
+    color: white;
 }
 
 .content {
     padding: 20px;
+}
+
+.info {
+    margin: 20%;
+    text-align: center;
+    color: grey;
+}
+
+.form-center {
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
 }
 
