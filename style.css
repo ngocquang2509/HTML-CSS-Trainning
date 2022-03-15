@@ -23,15 +23,41 @@ input[type=submit] {
 
 
 .header {
-    overflow: hidden;
-    background-color: gray;
-    padding:  20px 20px;
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: grey;
+    font-size: 30px;
+    background-image: url(https://lh3.googleusercontent.com/pw/ACtC-3eiuJm3Pfcm59IqKYz6210xTZkGIbWe2FlBdudDMODj057UzKpfoaJotBhSbmCdL3C7fVFa2hKa5-dAQ14SKFf329Uw_MZxgUT-hytrsIMMvI3bAbtuqDIwcHq1OBvhUQiwqnQeXk_pzItzd1-W_SmM=w2390-h1026-no?authuser=2);
+    height: 400px;
+    background-color: #cccccc;
+}
+
+.header a {
+    float: left;
+    color: grey;
+    text-align: center;
+    padding: 12px;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.logo {
+    font-size: 25px;
+    color: grey;
 }
 
 .header-right {
     float: right;
-    color: blue;
-    text-align: center;
-    padding: 12px;
-    border-radius: 4px;
 }
+
+.header a.active {
+    background-color: yellow;
+    color: black;
+}
+
+.content {
+    padding: 20px;
+}
+

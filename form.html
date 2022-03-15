@@ -8,26 +8,32 @@
 
     <body>
         <div class="header">
-            First web page
+            <a href="#default" class="logo">LOGO</a>
             <div class="header-right">
                 <a class="active" href="#home">Home</a>
                 <a href="#contact">Contact</a>
                 <a href="#about">About</a>
             </div>
+            <br>
+            <div class="info">
+                <h4>
+                    FRONT-END DEVELOPER
+                </h4>
+                <h1>THE FIRST WEB PAGE</h1>
+            </div>
         </div>
         
         <div style="border-radius: 5px; background-color: #f2f2f2; padding: 20px;">
-            <h1>Creat a new form in HTML</h1>
             <form action="http://www.example.com/review.php" method="post">
                 <div>
                     <p>
                         Fullname <br>
                         <input type="text" name="fullname" size="15" 
-                        maxlength="300" required="required">
+                        maxlength="300" placeholder="Enter your name ... " required="required">
                     </p>          
                     <p>
                         Phone <br>
-                        <input type="text" name="phone" size="15" 
+                        <input type="text" name="phone" size="15" placeholder="Enter your phone number ..." 
                         oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"
                         required="required">
                     </p>
