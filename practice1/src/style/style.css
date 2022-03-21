@@ -9,27 +9,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: 0;
 }
 
 body {
-  background-image: url("../images/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #cccccc;
+  margin: 0;
 }
 
 .header {
-  height: 100vh;
-  width: 100%;
   padding: 0 8%;
   position: relative;
+  background-image: url(../images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 5%;
 }
 
 .nav-links {
@@ -75,7 +74,55 @@ nav {
   align-content: center;
   box-sizing: border-box;
   padding: 10px 30px;
-  border: 2px solid yellow;
-  border-radius: 10px;
+  background-color: lemonchiffon;
+  color: darkgrey;
+  border-radius: 30px;
   cursor: pointer;
+}
+
+.sub-plan {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.sub-plan h1 {
+  font-weight: 900;
+}
+
+.row {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  align-content: center;
+  text-align: center;
+}
+
+.col {
+  flex-basis: 20%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  background: #fff3f3;
+  padding-bottom: 12px;
+  box-sizing: border-box;
+}
+
+.col-head {
+  margin: auto;
+  padding-top: 0;
+  color: white;
+  background-image: url(../images/coffee-cup.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.col-foot {
+  margin: auto;
+  padding-top: 20px;
 }
