@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "deja_vu";
+  src: url("../fonts/arial/GEO_AI__.TTF") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  padding: 0 8%;
+  position: relative;
+  background-image: url(../images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  padding: 28px 0;
+}
+
+.nav-links li {
+  color: #fff;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 0;
+  position: relative;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  box-sizing: border-box;
+  padding: 10px 30px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.heading {
+  color: #fff;
+  position: relative;
+  padding: 15% 0 10%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+
+.btn-explore {
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  box-sizing: border-box;
+  padding: 10px 30px;
+  background-color: lemonchiffon;
+  color: darkgrey;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.sub-plan {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.sub-plan h1 {
+  font-weight: 900;
+}
+
+.row {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  align-content: center;
+  text-align: center;
+}
+
+.col {
+  flex-basis: 20%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  border: groove;
+  padding-bottom: 12px;
+  box-sizing: border-box;
+}
+
+.col-head {
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: white;
+  background-image: url(../images/coffee-cup.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.col-foot {
+  margin: auto;
+  padding-top: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.col-foot a.btn {
+  padding: 20px 20px;
+  transition: ease-out 0.3s;
+  position: relative;
+  z-index: 1;
+}
+
+.col-foot a.btn :hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.col-foot a.btn::before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: lemonchiffon;
+  border-radius: 10px;
+}
+
+.col-foot a.btn:hover::before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
