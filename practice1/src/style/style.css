@@ -87,10 +87,6 @@ nav {
   padding-top: 50px;
 }
 
-.sub-plan h1 {
-  font-weight: 900;
-}
-
 .row {
   margin-top: 5%;
   margin-left: 10%;
@@ -161,4 +157,22 @@ nav {
   right: 0;
   opacity: 1;
   z-index: -1;
+}
+
+.feature {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 10%;
+}
+
+.left-side {
+  padding: 10px 10px;
+  display: flex;
+}
+
+.left-side i {
+  margin-right: 10px;
+  margin-top: 3px;
 }
