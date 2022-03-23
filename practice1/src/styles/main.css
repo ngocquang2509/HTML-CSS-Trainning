@@ -14,10 +14,7 @@
   font-family: deja_vu;
 }
 
-body {
-  margin: 0;
-}
-
+/* Header */
 .header {
   padding: 0 8%;
   position: relative;
@@ -27,6 +24,7 @@ body {
   background-repeat: no-repeat;
 }
 
+/* Navigation */
 nav {
   display: flex;
   align-items: center;
@@ -50,6 +48,7 @@ nav {
   position: relative;
 }
 
+/* Button */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -61,6 +60,7 @@ nav {
   cursor: pointer;
 }
 
+/* Heading */
 .heading {
   color: #fff;
   position: relative;
@@ -74,18 +74,23 @@ nav {
   font-size: 20px;
 }
 
+/* Explore button */
 .btn-explore {
   display: inline-flex;
   align-items: center;
   align-content: center;
   box-sizing: border-box;
   padding: 10px 30px;
-  background-color: lemonchiffon;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #ebcb80;
   color: darkgrey;
   border-radius: 30px;
+  text-decoration: none;
   cursor: pointer;
 }
 
+/* Subcribing Plans Page */
 .sub-plan {
   width: 100%;
   margin: auto;
@@ -157,7 +162,7 @@ nav {
   bottom: 0;
   opacity: 0;
   content: "";
-  background-color: lemonchiffon;
+  background-color: #ebcb80;
   border-radius: 10px;
 }
 
@@ -169,6 +174,7 @@ nav {
   z-index: -1;
 }
 
+/* Feature Page */
 .feature {
   width: 100%;
   margin: auto;
@@ -177,6 +183,7 @@ nav {
   font-size: 25px;
 }
 
+/* Feature Page body */
 .f-body {
   display: flex;
   align-items: center;
@@ -191,6 +198,8 @@ nav {
 .l-side {
   margin-left: 20%;
 }
+
+/* Results Page */
 
 .results-head {
   margin: auto;
@@ -213,6 +222,8 @@ nav {
   margin: 30px;
   padding: 20px;
 }
+
+/* Sign up form Page */
 
 .sign-up-form {
   width: 100%;
@@ -240,6 +251,8 @@ nav {
   text-decoration: none;
   color: #ebcb80;
 }
+
+/* Form */
 
 .form {
   background: #4b4b4b;
@@ -284,6 +297,8 @@ nav {
   cursor: pointer;
 }
 
+/* Footer */
+
 .footer {
   padding: 0 8%;
   position: relative;
@@ -318,6 +333,7 @@ hr {
   padding: 5px 0;
   position: relative;
   text-transform: uppercase;
+  font-weight: bold;
   margin: 20px;
 }
 
