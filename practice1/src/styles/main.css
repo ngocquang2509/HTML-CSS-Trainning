@@ -1,6 +1,7 @@
 @font-face {
   font-family: "deja_vu";
-  src: url("../assets/fonts/deja-vu/DejaVuSans.ttf") format("ttf");
+  src: url("../assets/fonts/deja-vu/DejaVuSans-webfont.woff") format("woff");
+
   font-weight: normal;
   font-style: normal;
 }
@@ -10,6 +11,7 @@
   padding: 0;
   box-sizing: border-box;
   border: 0;
+  font-family: deja_vu;
 }
 
 body {
@@ -66,6 +68,10 @@ nav {
   margin-left: 25%;
   margin-right: 25%;
   text-align: center;
+}
+
+.heading-title p {
+  font-size: 20px;
 }
 
 .btn-explore {
