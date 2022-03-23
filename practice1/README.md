@@ -14,23 +14,24 @@ Using HTML/CSS to build a web page
 
 - Team size: **_1 developer_**
 
-- IDE: **_ Visual Studio Code_**
+- IDE: **_Visual Studio Code_**
 
 - Source code manager: **_GitHub_**
 
 ## Getting started
 
-- Download [Visual Studio Code] (https://code.visualstudio.com/download)
+- Download [Visual Studio Code](https://code.visualstudio.com/download)
 
-- Open browser, go to GitHub to get [repository](https://github.com/ngocquang2509/traning-html-css)
+- Open terminal `Windows + R` or `Git Bash` then type:
 
-- Clone repository by opening terminal
-  `git clone https://github.com/ngocquang2509/traning-html-css.git`
+```
+ git clone https://github.com/ngocquang2509/traning-html-css.git
+```
 
-- Open it on **_Visual Studio Code_**
+- Open cloned file on **_Visual Studio Code_**
 
 - Go to folder `practice1`
 
 - Open `index.html` file
 
-- Press `Alt+L` then `Alt+O` to open it with **_Live Server_**
+- Press `Alt + L` then `Alt + O` to open it with **_Live Server_**
