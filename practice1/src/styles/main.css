@@ -96,8 +96,8 @@ nav {
 
 .row {
   margin-top: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
   display: flex;
   justify-content: space-between;
   padding: 20px 20px;
@@ -118,11 +118,14 @@ nav {
   padding-top: 20%;
   padding-bottom: 20%;
   color: white;
-  background-image: url(../assets/images/coffee-cup.jpg);
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+}
+
+.col-head h3 {
+  font-size: 50px;
 }
 
 .col-foot {
@@ -187,4 +190,182 @@ nav {
 
 .l-side {
   margin-left: 20%;
+}
+
+/* .results-head {
+  margin: auto;
+  padding: 50px 50px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.results-head p {
+  margin-top: 25px;
+  font-size: 15px;
+} */
+
+.sign-up-form {
+  width: 100%;
+  height: 700px;
+  margin: auto;
+  text-align: center;
+  padding: 50px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/images/mountain.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.sign-up-form h2 {
+  margin-bottom: 50px;
+  color: #ebcb80;
+}
+
+.sign-up-form a {
+  text-decoration: none;
+  color: #ebcb80;
+}
+
+.form {
+  /* background: linear-gradient(
+    224.09deg,
+    rgba(37, 35, 35, 0.7) 5.13%,
+    rgba(255, 255, 255, 7e-5) 90.88%
+  );
+  background-blend-mode: soft-light; */
+  background: #4b4b4b;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+  width: 400px;
+  border-radius: 8px;
+  padding-top: 20px;
+  border: 2px solid black;
+  color: #ebcb80;
+}
+
+.inputContainer {
+  position: relative;
+  height: 45px;
+  width: 90%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #dadce0;
+  border-radius: 7px;
+  font-size: 16px;
+  margin-left: 20px;
+  padding: 20px;
+  outline: none;
+  z-index: 1;
+}
+
+.signup-btn {
+  margin: 20px;
+  padding: 10px 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 15px;
+  background-color: #ebcb80;
+  cursor: pointer;
+}
+
+.footer {
+  padding: 0 8%;
+  position: relative;
+  background-color: #f6f6f6;
+}
+
+.footer hr {
+  overflow: visible;
+  border-top-color: black;
+  opacity: 0.5;
+}
+
+.footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.info li {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.info li a {
+  text-decoration: none;
+  color: #4b4b4b;
+  padding: 5px 0;
+  position: relative;
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+.social-icon {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.social-icon li {
+  display: inline-block;
+  margin-top: 5px;
+  margin: 10px;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.contact {
+  margin-left: 20px;
+  margin-bottom: 50px;
+  position: relative;
+  color: #4b4b4b;
+}
+
+.subcribe {
+  position: relative;
+  color: #4b4b4b;
+}
+
+.param {
+  color: #4b4b4b;
+  margin-top: 25px;
+}
+
+.email-box {
+  margin-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: #7d7d7d;
+  box-sizing: border-box;
+}
+
+.sub-btn {
+  margin: 20px;
+  padding: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #4b4b4b;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
 }
