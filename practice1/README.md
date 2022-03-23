@@ -18,6 +18,24 @@ Using HTML/CSS to build a web page
 
 - Source code manager: **_GitHub_**
 
+## Requirements
+
+- Work fine on Chrome browser latest version
+
+- Use the right HTML tags
+
+- Apply Flexbox
+
+- Apply CSS Guideline
+
+## Targets
+
+- Understand HTML/CSS properties and use them correctly
+
+- Slice from Sketch to HTML/CSS
+
+- Understand the concepts of Flex
+
 ## Getting started
 
 - Download [Visual Studio Code](https://code.visualstudio.com/download)
