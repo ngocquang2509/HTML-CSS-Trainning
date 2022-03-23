@@ -1,6 +1,6 @@
 @font-face {
   font-family: "deja_vu";
-  src: url("../fonts/arial/GEO_AI__.TTF") format("ttf");
+  src: url("../assets/fonts/deja-vu/DejaVuSans.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
@@ -19,7 +19,7 @@ body {
 .header {
   padding: 0 8%;
   position: relative;
-  background-image: url(../images/background.jpg);
+  background-image: url(../assets/images/background.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -112,7 +112,7 @@ nav {
   padding-top: 20%;
   padding-bottom: 20%;
   color: white;
-  background-image: url(../images/coffee-cup.jpg);
+  background-image: url(../assets/images/coffee-cup.jpg);
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
