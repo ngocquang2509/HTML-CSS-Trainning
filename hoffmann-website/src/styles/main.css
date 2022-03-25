@@ -1,7 +1,16 @@
 @font-face {
-  font-family: "deja_vu";
-  src: url("../assets/fonts/deja-vu/DejaVuSans-webfont.woff") format("woff");
+  font-family: "montserrat";
+  src: url("../assets/fonts/montserrat-cufonfonts-webfont/Montserrat-Regular.woff")
+    format("woff");
 
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "source-sans-pro";
+  src: url("../assets/fonts/source-sans-pro-v19-latin/source-sans-pro-v19-latin-regular.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -11,7 +20,7 @@
   padding: 0;
   box-sizing: border-box;
   border: 0;
-  font-family: deja_vu;
+  font-family: source-sans-pro;
 }
 
 /* Header */
@@ -70,6 +79,11 @@ nav {
   text-align: center;
 }
 
+.heading-title h1 {
+  font-family: montserrat;
+  font-size: 44px;
+}
+
 .heading-title p {
   font-size: 20px;
 }
@@ -101,6 +115,7 @@ nav {
   text-align: center;
   padding-top: 50px;
   font-size: 25px;
+  font-family: montserrat;
 }
 
 .sub-plan-row {
