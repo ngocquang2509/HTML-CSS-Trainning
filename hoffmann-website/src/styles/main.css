@@ -13,6 +13,8 @@
     format("woff");
   font-weight: normal;
   font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 * {
@@ -31,6 +33,14 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.logo {
+  font-family: montserrat;
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #ebcb80;
 }
 
 /* Navigation */
@@ -65,7 +75,7 @@ nav {
   box-sizing: border-box;
   padding: 10px 30px;
   border: 2px solid #fff;
-  border-radius: 10px;
+  border-radius: 50px;
   cursor: pointer;
 }
 
@@ -262,6 +272,11 @@ nav {
 
 .r-side {
   margin-right: 15%;
+}
+
+.macbook {
+  width: 802px;
+  height: 464px;
 }
 
 .left-side {
