@@ -41,6 +41,8 @@
   font-size: 36px;
   text-transform: uppercase;
   color: #ebcb80;
+  cursor: pointer;
+  letter-spacing: 2px;
 }
 
 /* Navigation */
@@ -141,18 +143,27 @@ nav {
 
 .col {
   flex-basis: 20%;
-  border-radius: 10px;
   margin-bottom: 5%;
   border: groove;
   padding-bottom: 12px;
   box-sizing: border-box;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
 }
 
 .col-head {
   padding-top: 20%;
   padding-bottom: 20%;
   color: white;
-  background-image: url(../assets/images/coffee-cup.jpg);
+  /* background-image: url(../assets/images/coffee-cup.jpg); */
+  background: linear-gradient(
+      180deg,
+      rgba(60, 60, 60, 0.198171) 0%,
+      rgba(60, 60, 60, 0.704257) 100%
+    ),
+    url(../assets/images/coffee-cup.jpg);
+  background-blend-mode: multiply, normal;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -163,7 +174,14 @@ nav {
   padding-top: 20%;
   padding-bottom: 20%;
   color: white;
-  background-image: url(../assets/images/coffee.jpg);
+  /* background-image: url(../assets/images/coffee.jpg); */
+  background: linear-gradient(
+      180deg,
+      rgba(60, 60, 60, 0.198171) 0%,
+      rgba(60, 60, 60, 0.704257) 100%
+    ),
+    url(../assets/images/coffee.jpg);
+  background-blend-mode: multiply, normal;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -174,7 +192,14 @@ nav {
   padding-top: 20%;
   padding-bottom: 20%;
   color: white;
-  background-image: url(../assets/images/coffee-shop.jpg);
+  /* background-image: url(../assets/images/coffee-shop.jpg); */
+  background: linear-gradient(
+      180deg,
+      rgba(60, 60, 60, 0.198171) 0%,
+      rgba(60, 60, 60, 0.704257) 100%
+    ),
+    url(../assets/images/coffee-shop.jpg);
+  background-blend-mode: multiply, normal;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -185,7 +210,14 @@ nav {
   padding-top: 20%;
   padding-bottom: 20%;
   color: white;
-  background-image: url(../assets/images/group-of-people-in-cafe.jpg);
+  /* background-image: url(../assets/images/group-of-people-in-cafe.jpg); */
+  background: linear-gradient(
+      180deg,
+      rgba(60, 60, 60, 0.198171) 0%,
+      rgba(60, 60, 60, 0.704257) 100%
+    ),
+    url(../assets/images/group-of-people-in-cafe.jpg);
+  background-blend-mode: multiply, normal;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -205,7 +237,9 @@ nav {
 }
 
 .col-foot a.btn {
-  padding: 20px 20px;
+  padding: 15px 15px;
+  padding-left: 50px;
+  padding-right: 50px;
   transition: ease-out 0.3s;
   position: relative;
   z-index: 1;
@@ -226,7 +260,7 @@ nav {
   opacity: 0;
   content: "";
   background-color: #ebcb80;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 
 .col-foot a.btn:hover::before {
