@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  grid-area: header;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.main {
+  grid-area: main;
+}
+
+.right {
+  grid-area: right;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "sidebar main main main main right"
+    "sidebar footer footer footer footer right";
+  gap: 10px;
+  background-color: darkcyan;
+  padding: 10px;
+}
+
+.container div {
+  background-color: brown;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
