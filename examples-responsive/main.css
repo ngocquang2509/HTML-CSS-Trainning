@@ -70,3 +70,35 @@
 .item3 {
   grid-area: 2/1 / span 3 / span 1;
 }
+
+/*Horizontal Ipad(1024 x 768)*/
+@media screen and (max-width: 1024px) {
+}
+/*Vertical Ipad(768 x 1024)*/
+@media screen and (max-width: 768px) {
+}
+/*Tablet (480 x 640)*/
+@media screen and (max-width: 480px) {
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
+}
+/*Smaller smartphone*/
+@media screen and (max-width: 240px) {
+}
+
+/*Small smartphone */
+@media screen and (min-width: 240px) {
+}
+/*Iphone(480 x 640)*/
+@media screen and (min-width: 320px) {
+}
+/*Tablet (480 x 640)*/
+@media screen and (min-width: 480px) {
+}
+/*Vertical Ipad (768 x 1024)*/
+@media screen and (min-width: 768px) {
+}
+/*Horizontal Ipad (1024 x 768)*/
+@media screen and (min-width: 1024px) {
+}
