@@ -4,10 +4,39 @@
     <meta charset="UFT-8" />
     <meta http-equiv="X-UA-Compatible" content="IE-edge" />
     <meta name="viewport" content="width=device-width, inital-scale=1.0" />
+    <link rel="stylesheet" href="./assets/font-awesome-icon/all.css" />
     <link rel="stylesheet" href="./styles/main.css" />
 
     <title>Responsive Design</title>
   </head>
 
-  <body></body>
+  <body>
+    <section>
+      <div class="logo">
+        <a href="#"><img src="./assets/images/HOFMANN.png" /></a>
+      </div>
+      <nav class="navigation">
+        <a href="#">Mission</a>
+        <a href="#">Services</a>
+        <a href="#">About</a>
+        <a href="#">Take a tour</a>
+      </nav>
+      <div class="menu">
+        <div class="menu-icon">
+          <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </div>
+        <div class="close-icon">
+          <i class="fa-solid fa-xmark" onclick="showMenu()"></i>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function showMenu() {
+        document.querySelector(".navigation").classList.toggle("active");
+        document.querySelector(".menu-icon").classList.toggle("hide");
+        document.querySelector(".close-icon").classList.toggle("show");
+      }
+    </script>
+  </body>
 </html>

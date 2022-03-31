@@ -3,3 +3,58 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+section {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../assets/images/background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav {
+  display: none;
+}
+
+nav.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  width: 50%;
+  height: 50%;
+  background-color: grey;
+}
+
+nav.active a {
+  padding: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu-icon.hide {
+  display: none;
+}
+
+.close-icon {
+  display: none;
+}
+
+.close-icon.show {
+  display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+  nav {
+    display: flex;
+  }
+  .menu {
+    display: none;
+  }
+}
