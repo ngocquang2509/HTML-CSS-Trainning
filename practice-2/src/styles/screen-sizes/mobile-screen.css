@@ -71,32 +71,6 @@ nav.active a {
   color: #fff;
 }
 
-@media screen and (min-width: 480px) {
-  nav {
-    display: flex;
-  }
-  nav a {
-    font-size: 12px;
-    padding: 10px;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-  .menu {
-    display: none;
-  }
-  .logo a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 24px;
-    font-weight: bold;
-    color: #ebcb80;
-    letter-spacing: 1px;
-    width: 140px;
-    height: 30px;
-  }
-}
-
 /* Heading */
 .heading {
   color: #fff;
@@ -134,7 +108,4 @@ nav.active a {
   text-transform: uppercase;
   font-size: 11px;
   cursor: pointer;
-}
-
-@media screen and (min-width: 480px) {
 }

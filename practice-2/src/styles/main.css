@@ -1,7 +1,13 @@
 @import url(./header.css);
+@import url(./screen-sizes/mobile-screen.css);
+@import url(./screen-sizes/tablet-screen.css);
+@import url(./screen-sizes/desktop-screen.css);
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+@media screen and (min-width: 480px) {
 }
