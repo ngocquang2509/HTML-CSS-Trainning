@@ -1,6 +1,4 @@
-@import url(./screen-sizes/mobile-screen.css);
-@import url(./screen-sizes/tablet-screen.css);
-@import url(./screen-sizes/desktop-screen.css);
+@import url(./header.css);
 
 * {
   margin: 0;
