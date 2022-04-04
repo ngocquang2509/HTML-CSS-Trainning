@@ -17,10 +17,10 @@
 }
 
 .navbar {
-  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
 }
 
 .btn {
@@ -116,23 +116,22 @@ nav.active a {
 /* Tablet */
 
 @media screen and (min-width: 480px) {
+  .menu {
+    display: none;
+  }
   nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 5rem;
   }
   nav a {
     font-size: 12px;
-    margin: 20px;
-    padding: 20px;
+    padding: 10px;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
   }
-  .menu {
-    display: none;
-  }
+
   .logo a {
     font-size: 24px;
   }
