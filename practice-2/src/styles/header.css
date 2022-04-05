@@ -38,43 +38,6 @@ nav {
   color: #fff;
 }
 
-/* nav.active {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  position: absolute;
-  top: 40px;
-  right: 20px;
-  width: 50%;
-  height: 50%;
-  background-color: grey;
-}
-
-nav.active a {
-  padding: 20px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.menu-icon {
-  color: #fff;
-}
-
-.menu-icon.hide {
-  display: none;
-}
-
-.close-icon {
-  display: none;
-  color: #fff;
-}
-
-.close-icon.show {
-  display: flex;
-  color: #fff;
-} */
-
 /* Heading */
 .heading {
   color: #fff;
@@ -113,7 +76,7 @@ nav.active a {
   cursor: pointer;
 }
 
-/* Tablet */
+/* Screen from 480px to 768px */
 
 @media screen and (min-width: 480px) {
   .menu {
@@ -140,7 +103,7 @@ nav.active a {
   }
 }
 
-/* iPad */
+/* Screen from 768px to 1024px */
 
 @media screen and (min-width: 768px) {
   .navbar {
@@ -164,7 +127,7 @@ nav.active a {
   }
 }
 
-/* Desktop */
+/* Screen from 1024px and bigger */
 
 @media screen and (min-width: 1024px) {
   .navbar {
