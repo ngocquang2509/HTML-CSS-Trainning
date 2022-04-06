@@ -2,9 +2,16 @@
   background-color: #f6f6f6;
 }
 
-.sub-plan-header {
+/* .sub-plan-header {
   width: 100%;
   padding: 5%;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+} */
+
+.sub-plan-header h2 {
+  padding: 2em 0 1em;
   text-align: center;
   font-family: Montserrat;
   font-size: 20px;
@@ -17,11 +24,14 @@
   align-content: center;
   text-align: center;
   margin: 10px;
+  padding-bottom: 5em;
 }
 
 .sub-plan-content h2 {
   font-family: Source-sans-pro;
   font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .sub-plan-content h3 {
@@ -33,8 +43,8 @@
 .sub-plan-content h3::before {
   content: "\0024";
   font-family: Montserrat;
-  font-size: 10px;
-  vertical-align: 1.5em;
+  font-size: 12px;
+  vertical-align: 1em;
   letter-spacing: 5px;
 }
 
@@ -43,15 +53,14 @@
   height: 224px;
   margin: 5px 0;
   padding-bottom: 12px;
-  border: groove;
   border-radius: 10px;
   background: #ffffff;
   box-sizing: border-box;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .desciption {
-  margin: 20px;
+  margin: 20px 10px;
   font-family: Source-sans-pro;
   font-size: 11px;
 }
@@ -62,6 +71,7 @@
   line-height: 13px;
   text-decoration: none;
   padding: 0.5rem 1rem;
+  color: #4b4b4b;
 }
 
 .btn-get-started {
@@ -70,6 +80,7 @@
 }
 
 .freemium {
+  margin-bottom: 2em;
   padding: 1em 2em;
   color: #ffffff;
   background: linear-gradient(
@@ -80,4 +91,121 @@
     url(../assets/images/coffee-cup.jpg);
   background-blend-mode: multiply, normal;
   background-size: cover;
+}
+
+.start-up {
+  margin-bottom: 2em;
+  padding: 1em 2em;
+  color: #ffffff;
+  background: linear-gradient(
+      180deg,
+      rgba(60, 60, 60, 0.198171) 0%,
+      rgba(60, 60, 60, 0.704257) 100%
+    ),
+    url(../assets/images/coffee.jpg);
+  background-blend-mode: multiply, normal;
+  background-size: cover;
+}
+
+.business {
+  padding: 1em 2em;
+  color: #ffffff;
+  background: linear-gradient(
+      180deg,
+      rgba(60, 60, 60, 0.198171) 0%,
+      rgba(60, 60, 60, 0.704257) 100%
+    ),
+    url(../assets/images/coffee-shop.jpg);
+  background-blend-mode: multiply, normal;
+  background-size: cover;
+}
+
+.enterprise {
+  font-weight: 400px;
+  padding: 1em 2em;
+  color: #ffffff;
+  background: linear-gradient(
+      180deg,
+      rgba(60, 60, 60, 0.198171) 0%,
+      rgba(60, 60, 60, 0.704257) 100%
+    ),
+    url(../assets/images/group-of-people-in-cafe.jpg);
+  background-blend-mode: multiply, normal;
+  background-size: cover;
+}
+
+@media screen and (min-width: 440px) {
+  .freemium {
+    grid-area: freemium;
+  }
+  .business {
+    grid-area: business;
+  }
+  .start-up {
+    grid-area: start-up;
+  }
+  .enterprise {
+    grid-area: enterprise;
+  }
+  .sub-plan-content {
+    display: grid;
+    grid-template-areas:
+      "freemium start-up"
+      "business enterprise";
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sub-plan-header h2 {
+    font-size: 44px;
+  }
+  .sub-plan-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2em;
+  }
+  .price {
+    width: 158px;
+    height: 248px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sub-plan-header h2 {
+    font-size: 44px;
+  }
+  .sub-plan-content {
+    justify-content: space-evenly;
+  }
+
+  .sub-plan-content h3 {
+    font-size: 64px;
+  }
+
+  .sub-plan-content h3::before {
+    font-size: 24px;
+    vertical-align: 0.5em;
+    letter-spacing: 5px;
+  }
+  .price {
+    width: 262px;
+    height: 372px;
+  }
+  .desciption {
+    font-size: 16px;
+  }
+
+  .freemium,
+  .start-up,
+  .business,
+  .enterprise {
+    padding: 2em 3em;
+  }
+
+  .get-started a {
+    font-size: 16px;
+  }
+  .get-started {
+    margin-top: 4em;
+  }
 }
