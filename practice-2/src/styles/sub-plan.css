@@ -65,18 +65,41 @@
   font-size: 11px;
 }
 
-.get-started a {
+a.btn-get-started {
   font-family: Montserrat;
   font-size: 11px;
-  line-height: 13px;
   text-decoration: none;
   padding: 0.5rem 1rem;
   color: #4b4b4b;
+  transition: ease-out 0.3s;
+  position: relative;
+  z-index: 1;
 }
 
-.btn-get-started {
-  border: 2px solid #4b4b4b;
+a.btn-get-started:hover {
+  color: #4b4b4b;
+  cursor: pointer;
+}
+
+a.btn-get-started::before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: #ebcb80;
   border-radius: 50px;
+}
+
+a.btn-get-started:hover::before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
 }
 
 .freemium {
@@ -204,6 +227,7 @@
 
   .get-started a {
     font-size: 16px;
+    padding: 1em 3em;
   }
   .get-started {
     margin-top: 4em;
