@@ -150,7 +150,6 @@ a.btn-get-started:hover::before {
 /* Enterprise plan */
 
 .enterprise {
-  font-weight: 400px;
   padding: 1em 2em;
   color: #ffffff;
   background: linear-gradient(
