@@ -67,6 +67,7 @@ a.btn-get-started {
   font-family: Montserrat;
   font-size: 11px;
   text-decoration: none;
+  text-transform: uppercase;
   padding: 0.5rem 1rem;
   color: #4b4b4b;
   transition: ease-out 0.3s;
@@ -135,6 +136,7 @@ a.btn-get-started:hover::before {
 /* Business plan */
 
 .business {
+  margin-bottom: 2em;
   padding: 1em 2em;
   color: #ffffff;
   background: linear-gradient(
