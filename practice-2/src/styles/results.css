@@ -1,0 +1,41 @@
+.results-head {
+  margin-top: 50px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.results-head h2 {
+  font-family: Monts-bold;
+  font-size: 20px;
+}
+
+.results-head p {
+  font-family: Source-sans-pro;
+  font-size: 11px;
+}
+
+.results-body {
+  text-align: center;
+}
+
+.percent {
+  width: 108px;
+  height: 108px;
+}
+.statistics {
+  margin: 2em;
+}
+
+.details {
+  font-family: Source-sans-pro;
+}
+.details h3 {
+  font-size: 12px;
+  margin-top: 1em;
+}
+
+.details p {
+  font-size: 11px;
+  margin-top: 1em;
+  padding: 0 8em;
+}
