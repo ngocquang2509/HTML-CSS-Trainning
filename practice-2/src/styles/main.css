@@ -3,6 +3,7 @@
 @import url(./header.css);
 @import url(./sub-plan.css);
 @import url(./feature-page.css);
+@import url(./results.css);
 
 * {
   margin: 0;

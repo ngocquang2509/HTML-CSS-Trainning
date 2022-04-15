@@ -1,0 +1,90 @@
+.results-head {
+  margin-top: 50px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.results-head h2 {
+  font-family: Monts-bold;
+  font-size: 20px;
+}
+
+.results-head p {
+  font-family: Source-sans-pro;
+  font-size: 11px;
+}
+
+.results-body {
+  text-align: center;
+}
+
+.statistics {
+  margin-top: 20px;
+}
+
+.percent {
+  width: 108px;
+  height: 108px;
+}
+
+.details {
+  font-family: Source-sans-pro;
+}
+.details h3 {
+  font-size: 12px;
+  margin-top: 1em;
+}
+
+.details p {
+  font-size: 11px;
+  margin-top: 1em;
+  padding: 0 8em;
+}
+@media screen and (min-width: 480px) {
+  .results-body {
+    margin: 0 3em;
+  }
+  .details p {
+    padding: 0 3em;
+  }
+}
+@media screen and (min-width: 720px) {
+  .results-head h2 {
+    font-size: 32px;
+  }
+  .results-head p {
+    margin-top: 2em;
+  }
+
+  .results-body {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3em 2em;
+  }
+
+  .details p {
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .results-head h2 {
+    font-size: 44px;
+  }
+  .results-head p {
+    font-size: 16px;
+  }
+
+  .percent {
+    width: 204px;
+    height: 204px;
+  }
+
+  .details h3 {
+    font-size: 18px;
+  }
+
+  .details p {
+    font-size: 16px;
+  }
+}
