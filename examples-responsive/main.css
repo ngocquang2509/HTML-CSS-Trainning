@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  grid-area: header;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.main {
+  grid-area: main;
+}
+
+.right {
+  grid-area: right;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "sidebar main main main main right"
+    "sidebar footer footer footer footer right";
+  gap: 10px;
+  background-color: darkcyan;
+  padding: 10px;
+}
+
+.container div {
+  background-color: brown;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.container-2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: dimgray;
+  padding: 10px;
+}
+
+.container-2 div {
+  background-color: darkgray;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.item2 {
+  grid-column: 3/4;
+}
+
+.item3 {
+  grid-area: 2/1 / span 3 / span 1;
+}
+
+/*Horizontal Ipad(1024 x 768)*/
+@media screen and (max-width: 1024px) {
+}
+/*Vertical Ipad(768 x 1024)*/
+@media screen and (max-width: 768px) {
+}
+/*Tablet (480 x 640)*/
+@media screen and (max-width: 480px) {
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
+}
+/*Smaller smartphone*/
+@media screen and (max-width: 240px) {
+}
+
+/*Small smartphone */
+@media screen and (min-width: 240px) {
+}
+/*Iphone(480 x 640)*/
+@media screen and (min-width: 320px) {
+}
+/*Tablet (480 x 640)*/
+@media screen and (min-width: 480px) {
+}
+/*Vertical Ipad (768 x 1024)*/
+@media screen and (min-width: 768px) {
+}
+/*Horizontal Ipad (1024 x 768)*/
+@media screen and (min-width: 1024px) {
+}

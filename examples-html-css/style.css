@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background-color: white ;
+    
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: grey;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: grey;
+    font-size: 30px;
+    background-image: url(https://lh3.googleusercontent.com/pw/ACtC-3eiuJm3Pfcm59IqKYz6210xTZkGIbWe2FlBdudDMODj057UzKpfoaJotBhSbmCdL3C7fVFa2hKa5-dAQ14SKFf329Uw_MZxgUT-hytrsIMMvI3bAbtuqDIwcHq1OBvhUQiwqnQeXk_pzItzd1-W_SmM=w2390-h1026-no?authuser=2);
+    height: 700px;
+    background-color: #cccccc;
+}
+
+.header a {
+    float: left;
+    color: grey;
+    text-align: center;
+    padding: 12px;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.logo {
+    font-size: 25px;
+    color: grey;
+}
+
+.header-right {
+    float: right;
+}
+
+.header a.active {
+    background-color: grey;
+    color: white;
+}
+
+.content {
+    padding: 20px;
+}
+
+.info {
+    margin: 20%;
+    text-align: center;
+    color: grey;
+}
+
+.form-center {
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+

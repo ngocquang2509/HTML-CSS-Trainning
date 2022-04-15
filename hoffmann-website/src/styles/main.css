@@ -1,0 +1,533 @@
+@font-face {
+  font-family: "montserrat";
+  src: url("../assets/fonts/montserrat-cufonfonts-webfont/Montserrat-Regular.woff")
+    format("woff");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "source-sans-pro";
+  src: url("../assets/fonts/source-sans-pro-v19-latin/source-sans-pro-v19-latin-regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  font-family: source-sans-pro;
+}
+
+/* Header */
+.header {
+  padding: 0 8%;
+  position: relative;
+  background-image: url(../assets/images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  font-family: montserrat;
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #ebcb80;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  padding: 28px 0;
+}
+
+.nav-links li {
+  color: #fff;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 0;
+  position: relative;
+  text-transform: uppercase;
+}
+
+/* Button */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  box-sizing: border-box;
+  padding: 10px 30px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* Heading */
+.heading {
+  color: #fff;
+  position: relative;
+  padding: 15% 0 10%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+
+.heading-title h1 {
+  font-family: montserrat;
+  font-size: 44px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.heading-title p {
+  font-size: 20px;
+  margin: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Explore button */
+.btn-explore {
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  box-sizing: border-box;
+  padding: 10px 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #ebcb80;
+  color: darkgrey;
+  border-radius: 30px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Subcribing Plans Page */
+.sub-plan {
+  background-color: #f6f6f6;
+}
+
+.sub-plan-head {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 25px;
+  font-family: montserrat;
+}
+
+.sub-plan-row {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  align-content: center;
+  text-align: center;
+}
+
+.col {
+  flex-basis: 20%;
+  margin-bottom: 5%;
+  border: groove;
+  padding-bottom: 12px;
+  box-sizing: border-box;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.col-head {
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: white;
+  /* background-image: url(../assets/images/coffee-cup.jpg); */
+  background: linear-gradient(
+      180deg,
+      rgba(60, 60, 60, 0.198171) 0%,
+      rgba(60, 60, 60, 0.704257) 100%
+    ),
+    url(../assets/images/coffee-cup.jpg);
+  background-blend-mode: multiply, normal;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.col-head-2 {
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: white;
+  /* background-image: url(../assets/images/coffee.jpg); */
+  background: linear-gradient(
+      180deg,
+      rgba(60, 60, 60, 0.198171) 0%,
+      rgba(60, 60, 60, 0.704257) 100%
+    ),
+    url(../assets/images/coffee.jpg);
+  background-blend-mode: multiply, normal;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.col-head-3 {
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: white;
+  /* background-image: url(../assets/images/coffee-shop.jpg); */
+  background: linear-gradient(
+      180deg,
+      rgba(60, 60, 60, 0.198171) 0%,
+      rgba(60, 60, 60, 0.704257) 100%
+    ),
+    url(../assets/images/coffee-shop.jpg);
+  background-blend-mode: multiply, normal;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.col-head-4 {
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: white;
+  /* background-image: url(../assets/images/group-of-people-in-cafe.jpg); */
+  background: linear-gradient(
+      180deg,
+      rgba(60, 60, 60, 0.198171) 0%,
+      rgba(60, 60, 60, 0.704257) 100%
+    ),
+    url(../assets/images/group-of-people-in-cafe.jpg);
+  background-blend-mode: multiply, normal;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.col h3 {
+  font-size: 50px;
+}
+
+.col-foot {
+  margin: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.col-foot a.btn {
+  margin-top: 50px;
+  padding: 15px 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  transition: ease-out 0.3s;
+  position: relative;
+  z-index: 1;
+}
+
+.col-foot a.btn :hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.col-foot a.btn::before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: #ebcb80;
+  border-radius: 50px;
+}
+
+.col-foot a.btn:hover::before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+
+/* Feature Page */
+.feature {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 50px 50px;
+  font-size: 25px;
+}
+
+.feature h3 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Feature Page body */
+.feature-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.feature-param {
+  display: flex;
+  width: 80%;
+  padding-bottom: 50px;
+  font-size: 18px;
+}
+
+.feature-param i {
+  margin-right: 10px;
+  font-size: 40px;
+}
+
+.r-side {
+  margin-right: 15%;
+}
+
+.macbook {
+  width: 802px;
+  height: 464px;
+}
+
+.left-side {
+  margin-left: 20%;
+}
+
+/* Results Page */
+
+.results-head {
+  margin: auto;
+  padding: 50px 50px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.results-head p {
+  margin-top: 25px;
+  font-size: 15px;
+}
+
+.results-row {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  align-content: center;
+  text-align: center;
+}
+
+.details {
+  margin-top: 30px;
+}
+
+.details p {
+  margin-top: 30px;
+  margin: 30px;
+  padding: 20px;
+}
+
+/* Sign up form Page */
+
+.sign-up-form {
+  width: 100%;
+  height: 700px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  padding: 50px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/images/mountain.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.sign-up-form h2 {
+  margin-bottom: 50px;
+  color: #ebcb80;
+}
+
+.sign-up-form a {
+  text-decoration: none;
+  color: #ebcb80;
+}
+
+/* Form */
+
+.form {
+  background: #4b4b4b;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+  width: 400px;
+  border-radius: 8px;
+  padding-top: 20px;
+  border: 2px solid black;
+  color: #ebcb80;
+}
+
+.inputContainer {
+  position: relative;
+  height: 45px;
+  width: 90%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #dadce0;
+  border-radius: 7px;
+  font-size: 16px;
+  margin-left: 20px;
+  padding: 20px;
+  outline: none;
+  z-index: 1;
+}
+
+.signup-btn {
+  margin: 20px;
+  padding: 10px 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 15px;
+  background-color: #ebcb80;
+  cursor: pointer;
+}
+
+/* Footer */
+
+.footer {
+  padding: 0 8%;
+  position: relative;
+  background-color: #f6f6f6;
+}
+
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 5px black;
+}
+
+.footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.info li {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.info li a {
+  text-decoration: none;
+  color: #4b4b4b;
+  padding: 5px 0;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.social-icon {
+  list-style: none;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.social-icon li {
+  display: inline-block;
+  margin-top: 5px;
+  margin: 10px;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.contact {
+  margin-left: 20px;
+  margin-bottom: 50px;
+  position: relative;
+  color: #4b4b4b;
+}
+
+.copy-right {
+  padding-top: 30px;
+}
+
+.subcribe {
+  position: relative;
+  color: #4b4b4b;
+}
+
+.param {
+  color: #4b4b4b;
+  margin-top: 25px;
+}
+
+.email-box {
+  margin-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: #7d7d7d;
+  box-sizing: border-box;
+}
+
+.sub-btn {
+  margin: 20px;
+  padding: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #4b4b4b;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}

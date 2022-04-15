@@ -1,0 +1,175 @@
+.first-page {
+  position: relative;
+  background-image: url(../assets/images/background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ebcb80;
+  letter-spacing: 1px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-family: Montserrat;
+}
+
+nav {
+  display: none;
+}
+
+.btn {
+  font-family: Montserrat;
+  font-weight: 400;
+  box-sizing: border-box;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.menu {
+  color: #fff;
+}
+
+/* Heading */
+.heading {
+  color: #fff;
+  position: relative;
+  text-align: center;
+  padding: 10% 15% 5%;
+}
+
+.heading-title h1 {
+  font-family: Montserrat;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0 15%;
+}
+
+.heading-title p {
+  padding: 0 25%;
+  font-size: 8px;
+}
+
+.btn-explore {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 8px;
+  font-family: Montserrat;
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  box-sizing: border-box;
+  margin: 5% 0;
+  padding: 1em 4em;
+  background-color: #ebcb80;
+  color: #3c3c3c;
+  border-radius: 30px;
+
+  cursor: pointer;
+}
+
+/* Screen from 480px to 768px */
+
+@media screen and (min-width: 480px) {
+  .menu {
+    display: none;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav a {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .logo a {
+    font-size: 24px;
+  }
+  .heading-title h1 {
+    font-size: 24px;
+  }
+  .heading-title p {
+    font-size: 10px;
+  }
+  .btn-explore {
+    font-size: 10px;
+    padding: 1em 4em;
+  }
+}
+
+/* Screen from 768px to 1024px */
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    margin: 0 20px;
+    padding-top: 30px;
+  }
+  .logo a {
+    font-size: 30px;
+  }
+
+  nav a {
+    font-size: 14px;
+    margin: 1em;
+  }
+  .heading-title h1 {
+    font-size: 28px;
+  }
+  .heading-title p {
+    font-size: 14px;
+  }
+  .btn-explore {
+    font-size: 14px;
+    padding: 1em 4em;
+  }
+}
+
+/* Screen from 1024px and bigger */
+
+@media screen and (min-width: 1024px) {
+  .navbar {
+    margin: 0 30px;
+    padding: 5em;
+  }
+  .logo a {
+    font-size: 36px;
+  }
+  nav {
+    padding-right: 5rem;
+  }
+  nav a {
+    font-size: 18px;
+    margin: 2em;
+  }
+  .btn {
+    padding: 1em 3em;
+  }
+  .heading-title h1 {
+    font-size: 45px;
+  }
+  .heading-title p {
+    font-size: 20px;
+  }
+  .btn-explore {
+    font-size: 20px;
+    padding: 1em 4em;
+  }
+}

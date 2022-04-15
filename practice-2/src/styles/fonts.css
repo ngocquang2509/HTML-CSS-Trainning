@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../assets/fonts/montserrat/Montserrat-Regular.woff) format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Monts-bold;
+  src: url(../assets/fonts/montserrat/Montserrat-Bold.woff) format("woff");
+}
+
+@font-face {
+  font-family: Source-sans-pro;
+  src: url(../assets/fonts/source-sans-pro/source-sans-pro-v19-latin-regular.woff)
+    format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Source-sans-pro-bold;
+  src: url(../assets/fonts/source-sans-pro/SourceSansPro-Bold.ttf)
+    format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
