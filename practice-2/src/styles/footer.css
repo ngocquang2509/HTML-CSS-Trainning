@@ -82,3 +82,36 @@
   color: #4b4b4b;
   padding-bottom: 30px;
 }
+
+@media screen and (min-width: 768px) {
+  .info {
+    grid-area: info;
+    flex-wrap: nowrap;
+  }
+  .social-icon {
+    grid-area: icon;
+  }
+  .contact {
+    grid-area: contact;
+  }
+  .outtro {
+    grid-area: outtro;
+  }
+  .copy-right {
+    grid-area: copy-right;
+  }
+  .email {
+    grid-area: email;
+  }
+  .hr {
+    grid-area: hr;
+  }
+  .footer {
+    display: grid;
+    grid-template-areas:
+      "info icon"
+      "hr hr"
+      "contact outtro"
+      "copy-right email";
+  }
+}
