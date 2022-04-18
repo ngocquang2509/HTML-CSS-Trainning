@@ -85,33 +85,83 @@
 
 @media screen and (min-width: 768px) {
   .info {
+    overflow: visible;
+    margin: 20px 0;
     grid-area: info;
     flex-wrap: nowrap;
+    justify-content: start;
   }
   .social-icon {
     grid-area: icon;
+    justify-content: end;
   }
   .contact {
     grid-area: contact;
+    text-align: start;
+    margin: 0 20px;
   }
   .outtro {
     grid-area: outtro;
+    text-align: end;
+    margin-right: 20px;
   }
   .copy-right {
     grid-area: copy-right;
+    text-align: start;
+    margin: 30px 20px 0;
   }
   .email {
     grid-area: email;
+    text-align: end;
+    margin: 0;
+    margin-right: 20px;
   }
-  .hr {
+  .hr-line {
     grid-area: hr;
   }
   .footer {
     display: grid;
     grid-template-areas:
-      "info icon"
-      "hr hr"
-      "contact outtro"
+      "info  icon"
+      "hr hr "
+      "contact  outtro"
       "copy-right email";
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer {
+    padding: 0 100px;
+  }
+
+  .info {
+    padding: 30px 0;
+  }
+  .info li a {
+    font-size: 18px;
+  }
+  .social-icon {
+    padding: 30px 0;
+    font-size: 24px;
+  }
+
+  .contact {
+    font-size: 16px;
+  }
+
+  .copy-right {
+    font-size: 16px;
+  }
+
+  .outtro {
+    font-size: 16px;
+  }
+
+  .sub-btn {
+    font-size: 16px;
+  }
+
+  .email-box {
+    font-size: 16px;
   }
 }
