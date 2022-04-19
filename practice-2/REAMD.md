@@ -11,6 +11,10 @@
 - Flexbox
 - Grid
 
+## Editor
+
+- Visual Studio Code
+
 ## Target
 
 - Proficient use of HTML tags
