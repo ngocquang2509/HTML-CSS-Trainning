@@ -1,0 +1,167 @@
+.footer {
+  background-color: #f6f6f6;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  list-style: none;
+}
+
+.social-icon li {
+  margin: 20px;
+  color: #4b4b4b;
+}
+
+.hr-line {
+  margin: 0 10px 20px;
+}
+
+.outtro {
+  font-family: Source-sans-pro;
+  font-size: 11px;
+  text-align: center;
+  margin: 0 50px;
+}
+
+.email {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.email-box {
+  width: 30%;
+  padding: 5px 10px;
+  font-family: Source-sans-pro;
+  font-size: 11px;
+}
+
+.sub-btn {
+  font-family: Montserrat;
+  font-size: 11px;
+  /* margin: 20px; */
+  padding: 5px 20px;
+
+  background-color: #4b4b4b;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.info {
+  overflow: hidden;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 20px;
+}
+
+.info li a {
+  font-family: Source-sans-pro-bold;
+  font-size: 12px;
+  text-decoration: none;
+  color: #4b4b4b;
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+
+.contact {
+  font-family: Source-sans-pro;
+  font-size: 11px;
+  text-align: center;
+  color: #4b4b4b;
+  margin: 30px 0;
+}
+
+.copy-right {
+  font-family: Source-sans-pro;
+  font-size: 11px;
+  text-align: center;
+  color: #4b4b4b;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .info {
+    overflow: visible;
+    margin: 20px 0;
+    grid-area: info;
+    flex-wrap: nowrap;
+    justify-content: start;
+  }
+  .social-icon {
+    grid-area: icon;
+    justify-content: end;
+  }
+  .contact {
+    grid-area: contact;
+    text-align: start;
+    margin: 0 20px;
+  }
+  .outtro {
+    grid-area: outtro;
+    text-align: end;
+    margin-right: 20px;
+  }
+  .copy-right {
+    grid-area: copy-right;
+    text-align: start;
+    margin: 30px 20px 0;
+  }
+  .email {
+    grid-area: email;
+    text-align: end;
+    margin: 0;
+    margin-right: 20px;
+  }
+  .hr-line {
+    grid-area: hr;
+  }
+  .footer {
+    display: grid;
+    grid-template-areas:
+      "info  icon"
+      "hr hr "
+      "contact  outtro"
+      "copy-right email";
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer {
+    padding: 0 100px;
+  }
+
+  .info {
+    padding: 30px 0;
+  }
+  .info li a {
+    font-size: 18px;
+  }
+  .social-icon {
+    padding: 30px 0;
+    font-size: 24px;
+  }
+
+  .contact {
+    font-size: 16px;
+  }
+
+  .copy-right {
+    font-size: 16px;
+  }
+
+  .outtro {
+    font-size: 16px;
+  }
+
+  .sub-btn {
+    font-size: 16px;
+  }
+
+  .email-box {
+    font-size: 16px;
+  }
+}

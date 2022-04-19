@@ -7,7 +7,7 @@
 .sub-plan-header h2 {
   padding: 2em 0 1em;
   text-align: center;
-  font-family: Montserrat;
+  font-family: Monts-bold;
   font-size: 20px;
 }
 
@@ -56,7 +56,8 @@
 }
 
 .desciption {
-  margin: 20px 10px;
+  margin: 20px 5px;
+  padding: 0 15px;
   font-family: Source-sans-pro;
   font-size: 11px;
 }
@@ -164,34 +165,11 @@ a.btn-get-started:hover::before {
   background-size: cover;
 }
 
-/* Support screen from 440px to 768px wide */
-
-@media screen and (min-width: 440px) {
-  .freemium {
-    grid-area: freemium;
-  }
-  .business {
-    grid-area: business;
-  }
-  .start-up {
-    grid-area: start-up;
-  }
-  .enterprise {
-    grid-area: enterprise;
-  }
-  .sub-plan-content {
-    display: grid;
-    grid-template-areas:
-      "freemium start-up"
-      "business enterprise";
-  }
-}
-
 /* Support screen from 768px to 1024px wide */
 
 @media screen and (min-width: 768px) {
   .sub-plan-header h2 {
-    font-size: 44px;
+    font-size: 32px;
   }
   .sub-plan-content {
     display: flex;

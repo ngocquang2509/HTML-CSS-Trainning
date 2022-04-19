@@ -5,6 +5,7 @@
 @import url(./feature-page.css);
 @import url(./results.css);
 @import url(./form.css);
+@import url(./footer.css);
 
 * {
   margin: 0;
