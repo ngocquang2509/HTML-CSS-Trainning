@@ -30,9 +30,9 @@
 
 ## Section breakpoints
 
-- Mobile: @media screen and (min-width: 320px)
-- Tablet: @media screen and (min-width: 768px)
-- Desktop: @media screen and (min-width: 1440px)
+- **Mobile**: @media screen and (min-width: 320px)
+- **Tablet**: @media screen and (min-width: 768px)
+- **Desktop**: @media screen and (min-width: 1440px)
 
 ## Supported Browser
 
