@@ -28,6 +28,28 @@
 - Work fine on Chrome browser latest version
 - Getting the code to work cross-browsers latest version (Chrome, Firefox, MS Edge)
 
+## Folder Struture
+
+```
+|-- src
+    |-- assets
+        |-- font-awesome-icon
+        |-- fonts
+        |-- images
+        |-- webfonts
+    |-- styles
+        |-- common
+        |-- components
+        |-- fonts.css
+        |-- main.css
+        |-- reset.css
+    |-- index.html
+|-- .editorconfig
+|-- .gitignore
+|-- package.json
+|-- README.ms
+```
+
 ## Section breakpoints
 
 - **Mobile**: @media screen and (min-width: 320px)
@@ -66,16 +88,22 @@ git clone https://github.com/ngocquang2509/traning-html-css.git
 git checkout develop
 ```
 
+- Change directory to practice-2 folder
+
+```
+cd practice-2
+```
+
 - Open cmd and install package
 
 ```
-npm install --save-dev parcel
+npm install
 ```
 
 - Run project
 
 ```
-npx parcel src/index.html
+npm start
 ```
 
 - Open browser
