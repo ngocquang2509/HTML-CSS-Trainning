@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"cT11E":[function(require,module,exports) {
+})({"2h9pI":[function(require,module,exports) {
 "use strict";
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -515,6 +515,6 @@ function hmrAcceptRun(bundle, id) {
 
 },{}],"4M6V8":[function(require,module,exports) {
 
-},{}]},["cT11E","4M6V8"], "4M6V8", "parcelRequire94c2")
+},{}]},["2h9pI","4M6V8"], "4M6V8", "parcelRequire3c22")
 
 //# sourceMappingURL=practice-2.59712999.js.map

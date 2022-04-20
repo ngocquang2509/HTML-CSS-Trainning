@@ -1,6 +1,6 @@
 .first-page {
   position: relative;
-  background-image: url(../assets/images/background.png);
+  background-image: url(../../assets/images/background.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -20,22 +20,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding-top: 20px;
+  margin: 0 1em;
   font-family: Montserrat;
 }
 
-nav {
+.navigation {
   display: none;
-}
-
-.btn {
-  font-family: Montserrat;
-  font-size: 11px;
-  padding: 1em 2em;
-  box-sizing: border-box;
-  border: 2px solid #fff;
-  border-radius: 50px;
-  cursor: pointer;
 }
 
 .menu {
@@ -77,22 +68,21 @@ nav {
   background-color: #ebcb80;
   color: #3c3c3c;
   border-radius: 30px;
-
   cursor: pointer;
 }
 
-/* Screen from 768px to 1024px */
+/* Screen from 768px to 1440px */
 
 @media screen and (min-width: 768px) {
   .menu {
     display: none;
   }
-  nav {
+  .navigation {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  nav a {
+  .navigation a {
     font-family: Source-sans-pro-bold;
     font-size: 12px;
     padding: 10px;
@@ -101,6 +91,17 @@ nav {
     text-decoration: none;
     text-transform: uppercase;
   }
+
+  .navigation a.btn {
+    font-family: Montserrat;
+    font-size: 11px;
+    padding: 15px 35px;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
   .navbar {
     padding-top: 30px;
   }
@@ -113,7 +114,8 @@ nav {
   }
   .heading-title p {
     font-size: 11px;
-    padding: 1em 5em;
+    margin: 0 2em;
+    padding: 1em 8em;
   }
   .btn-explore {
     font-size: 14px;
@@ -125,17 +127,18 @@ nav {
 
 @media screen and (min-width: 1440px) {
   .navbar {
-    margin: 0 30px;
-    padding: 5em;
+    margin: 0;
+    padding: 30px 0;
   }
   .logo a {
     font-size: 36px;
   }
-  nav a {
+  .navigation a {
     font-size: 18px;
     margin: 2em;
   }
-  .btn {
+  .navigation a.btn {
+    font-size: 16px;
     padding: 1em 3em;
   }
   .heading-title h1 {

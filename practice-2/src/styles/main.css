@@ -1,11 +1,19 @@
+/* Reset CSS */
 @import url(./reset.css);
+
+/* Fonts */
 @import url(./fonts.css);
-@import url(./header.css);
-@import url(./sub-plan.css);
-@import url(./feature-page.css);
-@import url(./results.css);
-@import url(./form.css);
-@import url(./footer.css);
+
+/* Common */
+@import url(./common/common.css);
+
+/* Components */
+@import url(./components/header.css);
+@import url(./components/sub-plan.css);
+@import url(./components/feature-page.css);
+@import url(./components/results.css);
+@import url(./components/form.css);
+@import url(./components/footer.css);
 
 * {
   margin: 0;
