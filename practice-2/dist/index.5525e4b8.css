@@ -188,10 +188,10 @@ template, [hidden] {
 
 .logo a {
   text-transform: uppercase;
-  color: #ebcb80;
-  letter-spacing: 1px;
   font-family: Monts-bold;
-  font-size: 16px;
+  font-size: var(--font-size-md);
+  color: var(--yellow-brown);
+  letter-spacing: 1px;
   font-weight: bold;
   text-decoration: none;
 }
@@ -210,21 +210,21 @@ template, [hidden] {
 }
 
 .menu {
-  color: #fff;
+  color: var(--white);
 }
 
 .heading {
-  color: #fff;
+  color: var(--white);
   text-align: center;
   padding: 10% 15% 5%;
   position: relative;
 }
 
 .heading-title h1 {
+  font-family: Monts-bold;
+  font-size: var(--font-size-lg);
   text-transform: uppercase;
   padding: 0 15%;
-  font-family: Monts-bold;
-  font-size: 20px;
   font-weight: bold;
 }
 
@@ -235,17 +235,17 @@ template, [hidden] {
 
 .btn-explore {
   text-transform: uppercase;
+  font-size: var(--font-size-xsm);
   box-sizing: border-box;
-  color: #3c3c3c;
+  background-color: var(--yellow-brown);
+  color: var(--light-black);
   cursor: pointer;
-  background-color: #ebcb80;
   border-radius: 30px;
   align-content: center;
   align-items: center;
   margin: 5% 0;
   padding: 1em 4em;
   font-family: Montserrat;
-  font-size: 8px;
   text-decoration: none;
   display: inline-flex;
 }
@@ -262,23 +262,23 @@ template, [hidden] {
   }
 
   .navigation a {
-    color: #fff;
+    font-family: Source-sans-pro-bold;
+    font-size: var(--font-size-sm);
+    color: var(--white);
     text-transform: uppercase;
     margin: 1em;
     padding: 10px;
-    font-family: Source-sans-pro-bold;
-    font-size: 12px;
     text-decoration: none;
   }
 
   .navigation a.btn {
+    font-family: Montserrat;
+    font-size: var(--font-size-xsm);
     box-sizing: border-box;
+    border: 2px solid var(--white);
     cursor: pointer;
-    border: 2px solid #fff;
     border-radius: 50px;
     padding: 15px 35px;
-    font-family: Montserrat;
-    font-size: 11px;
   }
 
   .navbar {
@@ -290,13 +290,13 @@ template, [hidden] {
   }
 
   .heading-title h1 {
-    font-size: 32px;
+    font-size: var(--font-size-2xlg);
   }
 
   .heading-title p {
+    font-size: var(--font-size-xsm);
     margin: 0 2em;
     padding: 1em 8em;
-    font-size: 11px;
   }
 
   .btn-explore {
@@ -312,7 +312,7 @@ template, [hidden] {
   }
 
   .logo a {
-    font-size: 36px;
+    font-size: var(--font-size-3xlg);
   }
 
   .navigation a {
@@ -321,34 +321,33 @@ template, [hidden] {
   }
 
   .navigation a.btn {
+    font-size: var(--font-size-md);
     padding: 1em 3em;
-    font-size: 16px;
   }
 
   .heading-title h1 {
-    font-size: 45px;
+    font-size: var(--font-size-4xlg);
   }
 
   .heading-title p {
-    font-size: 20px;
+    font-size: var(--font-size-md);
   }
 
   .btn-explore {
+    font-size: var(--font-size-md);
     padding: 1em 4em;
-    font-size: 20px;
   }
 }
 
 .sub-plan {
-  max-width: 420px2;
-  background-color: #f6f6f6;
+  background-color: var(--light-grey);
 }
 
 .sub-plan-header h2 {
   text-align: center;
-  padding: 2em 0 1em;
   font-family: Monts-bold;
-  font-size: 20px;
+  font-size: var(--font-size-lg);
+  padding: 2em 0 1em;
 }
 
 .sub-plan-content {
@@ -361,31 +360,31 @@ template, [hidden] {
 }
 
 .sub-plan-content h2 {
+  font-family: Source-sans-pro;
+  font-size: var(--font-size-sm);
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-family: Source-sans-pro;
-  font-size: 12px;
 }
 
 .sub-plan-content h3 {
   font-family: Montserrat;
-  font-size: 36px;
+  font-size: var(--font-size-3xlg);
   font-weight: bold;
 }
 
 .sub-plan-content h3:before {
   content: "$";
+  font-family: Montserrat;
+  font-size: var(--font-size-sm);
   vertical-align: 1em;
   letter-spacing: 5px;
-  font-family: Montserrat;
-  font-size: 12px;
 }
 
 .price {
   width: 140px;
   height: 224px;
+  background: var(--white);
   box-sizing: border-box;
-  background: #fff;
   border-radius: 10px;
   margin: 5px 0;
   padding-bottom: 12px;
@@ -393,33 +392,33 @@ template, [hidden] {
 }
 
 .desciption {
+  font-family: Source-sans-pro;
+  font-size: var(--font-size-xsm);
   margin: 20px 5px;
   padding: 0 15px;
-  font-family: Source-sans-pro;
-  font-size: 11px;
 }
 
 a.btn-get-started {
+  font-family: Montserrat;
+  font-size: var(--font-size-xsm);
   text-transform: uppercase;
   color: #4b4b4b;
   z-index: 1;
   padding: .5rem 1rem;
-  font-family: Montserrat;
-  font-size: 11px;
   text-decoration: none;
   transition: all .3s ease-out;
   position: relative;
 }
 
 a.btn-get-started:hover {
-  color: #4b4b4b;
+  color: var(--light-black);
   cursor: pointer;
 }
 
 a.btn-get-started:before {
   opacity: 0;
   content: "";
-  background-color: #ebcb80;
+  background-color: var(--yellow-brown);
   border-radius: 50px;
   transition: all .5s;
   position: absolute;
@@ -435,7 +434,7 @@ a.btn-get-started:hover:before {
 }
 
 .freemium {
-  color: #fff;
+  color: var(--white);
   background-blend-mode: multiply, normal;
   background-color: #0000;
   background-image: linear-gradient(#3c3c3c33 0%, #3c3c3cb4 100%), url("coffee-cup.a74a8abc.jpg");
@@ -450,7 +449,7 @@ a.btn-get-started:hover:before {
 }
 
 .start-up {
-  color: #fff;
+  color: var(--white);
   background-blend-mode: multiply, normal;
   background-color: #0000;
   background-image: linear-gradient(#3c3c3c33 0%, #3c3c3cb4 100%), url("coffee.e3ca4be0.jpg");
@@ -465,7 +464,7 @@ a.btn-get-started:hover:before {
 }
 
 .business {
-  color: #fff;
+  color: var(--white);
   background-blend-mode: multiply, normal;
   background-color: #0000;
   background-image: linear-gradient(#3c3c3c33 0%, #3c3c3cb4 100%), url("coffee-shop.ab7eca28.jpg");
@@ -480,7 +479,7 @@ a.btn-get-started:hover:before {
 }
 
 .enterprise {
-  color: #fff;
+  color: var(--white);
   background-blend-mode: multiply, normal;
   background-color: #0000;
   background-image: linear-gradient(#3c3c3c33 0%, #3c3c3cb4 100%), url("group-of-people-in-cafe.2dff1bf8.jpg");
@@ -1028,6 +1027,21 @@ a.btn-get-started:hover:before {
   .container {
     max-width: 1400px;
   }
+}
+
+:root {
+  --white: #fff;
+  --light-grey: #f6f6f6;
+  --light-black: #4b4b4b;
+  --yellow-brown: #ebcb80;
+  --font-size-xsm: 11px;
+  --font-size-sm: 12px;
+  --font-size-md: 16px;
+  --font-size-lg: 20px;
+  --font-size-xlg: 24px;
+  --font-size-2xlg: 32px;
+  --font-size-3xlg: 36px;
+  --font-size-4xlg: 44px;
 }
 
 * {

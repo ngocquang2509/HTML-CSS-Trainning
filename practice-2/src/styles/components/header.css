@@ -10,9 +10,9 @@
   text-decoration: none;
   text-transform: uppercase;
   font-family: Monts-bold;
-  font-size: 16px;
+  font-size: var(--font-size-md);
   font-weight: bold;
-  color: #ebcb80;
+  color: var(--yellow-brown);
   letter-spacing: 1px;
 }
 
@@ -30,12 +30,12 @@
 }
 
 .menu {
-  color: #fff;
+  color: var(--white);
 }
 
 /* Heading */
 .heading {
-  color: #fff;
+  color: var(--white);
   position: relative;
   text-align: center;
   padding: 10% 15% 5%;
@@ -43,7 +43,7 @@
 
 .heading-title h1 {
   font-family: Monts-bold;
-  font-size: 20px;
+  font-size: var(--font-size-lg);
   text-transform: uppercase;
   font-weight: bold;
   padding: 0 15%;
@@ -57,7 +57,7 @@
 .btn-explore {
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 8px;
+  font-size: var(--font-size-xsm);
   font-family: Montserrat;
   display: inline-flex;
   align-items: center;
@@ -65,8 +65,8 @@
   box-sizing: border-box;
   margin: 5% 0;
   padding: 1em 4em;
-  background-color: #ebcb80;
-  color: #3c3c3c;
+  background-color: var(--yellow-brown);
+  color: var(--light-black);
   border-radius: 30px;
   cursor: pointer;
 }
@@ -84,20 +84,20 @@
   }
   .navigation a {
     font-family: Source-sans-pro-bold;
-    font-size: 12px;
+    font-size: var(--font-size-sm);
     padding: 10px;
     margin: 1em;
-    color: #fff;
+    color: var(--white);
     text-decoration: none;
     text-transform: uppercase;
   }
 
   .navigation a.btn {
     font-family: Montserrat;
-    font-size: 11px;
+    font-size: var(--font-size-xsm);
     padding: 15px 35px;
     box-sizing: border-box;
-    border: 2px solid #fff;
+    border: 2px solid var(--white);
     border-radius: 50px;
     cursor: pointer;
   }
@@ -110,10 +110,10 @@
   }
 
   .heading-title h1 {
-    font-size: 32px;
+    font-size: var(--font-size-2xlg);
   }
   .heading-title p {
-    font-size: 11px;
+    font-size: var(--font-size-xsm);
     margin: 0 2em;
     padding: 1em 8em;
   }
@@ -131,24 +131,24 @@
     padding: 30px 0;
   }
   .logo a {
-    font-size: 36px;
+    font-size: var(--font-size-3xlg);
   }
   .navigation a {
     font-size: 18px;
     margin: 2em;
   }
   .navigation a.btn {
-    font-size: 16px;
+    font-size: var(--font-size-md);
     padding: 1em 3em;
   }
   .heading-title h1 {
-    font-size: 45px;
+    font-size: var(--font-size-4xlg);
   }
   .heading-title p {
-    font-size: 20px;
+    font-size: var(--font-size-md);
   }
   .btn-explore {
-    font-size: 20px;
+    font-size: var(--font-size-md);
     padding: 1em 4em;
   }
 }

@@ -1,0 +1,17 @@
+:root {
+  /* Color */
+  --white: #fff;
+  --light-grey: #f6f6f6;
+  --light-black: #4b4b4b;
+  --yellow-brown: #ebcb80;
+
+  /* Font-size */
+  --font-size-xsm: 11px;
+  --font-size-sm: 12px;
+  --font-size-md: 16px;
+  --font-size-lg: 20px;
+  --font-size-xlg: 24px;
+  --font-size-2xlg: 32px;
+  --font-size-3xlg: 36px;
+  --font-size-4xlg: 44px;
+}

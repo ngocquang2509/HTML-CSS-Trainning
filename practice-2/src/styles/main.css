@@ -5,6 +5,7 @@
 @import url(./fonts.css);
 
 /* Common */
+@import url(./common/variables.css);
 @import url(./common/common.css);
 
 /* Components */
