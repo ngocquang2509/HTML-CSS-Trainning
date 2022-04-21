@@ -28,16 +28,16 @@
 - Work fine on Chrome browser latest version
 - Getting the code to work cross-browsers latest version (Chrome, Firefox, MS Edge)
 
-## Folder Struture
+## Folder Structure
 
 ```
-|-- src
-    |-- assets
+|-- src/
+    |-- assets/
         |-- font-awesome-icon
         |-- fonts
         |-- images
         |-- webfonts
-    |-- styles
+    |-- styles/
         |-- common
         |-- components
         |-- fonts.css
