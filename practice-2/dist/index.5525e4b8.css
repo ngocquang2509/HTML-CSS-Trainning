@@ -179,7 +179,7 @@ template, [hidden] {
 }
 
 .first-page {
-  background-image: url("background.4b1972f3.png");
+  background-image: url("background-first-page.4572eada.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -710,7 +710,7 @@ a.btn-get-started:hover:before {
   font-size: 12px;
 }
 
-.inputBox {
+.input-box {
   margin: 20px 30px;
 }
 
@@ -744,6 +744,7 @@ a.btn-get-started:hover:before {
 
 @media screen and (min-width: 720px) {
   .form-head {
+    margin-bottom: 2em;
     font-size: 28px;
   }
 
