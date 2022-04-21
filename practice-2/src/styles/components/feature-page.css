@@ -58,7 +58,7 @@
     font-size: 32px;
   }
   .feature-body {
-    margin: 2em 0 2em 5em;
+    margin: 2em 0 2em 8em;
     padding: 0;
     display: flex;
     flex-direction: row;
@@ -72,7 +72,7 @@
   .macbook-img img {
     width: fit-content;
     height: fit-content;
-    margin: 0px 0px 0px 200px;
+    margin: 0px 0px 0px 150px;
   }
 }
 
@@ -86,14 +86,12 @@
   }
 
   .feature-body {
-    margin: 2em;
-    padding-left: 10em;
-    padding-right: 5em;
+    margin: 3em 5em;
+    padding: 0 5em;
   }
 
   .feature-param {
-    margin-left: 15%;
-    padding-right: 50px;
+    padding-left: 5em;
   }
   .feature-details h4 {
     font-size: 16px;
@@ -101,7 +99,7 @@
 
   .feature-details p {
     font-size: 16px;
-    margin-right: 35%;
+    padding-right: 15em;
   }
 
   .icon img {
@@ -111,12 +109,13 @@
 
   .macbook-img {
     overflow: visible;
-    margin-right: 15%;
+    /* margin-right: 15%; */
   }
 
   .macbook-img img {
-    width: auto;
+    width: 1000px;
     height: auto;
-    margin: 0;
+    margin-top: 20px;
+    margin-left: 30px;
   }
 }
