@@ -1,10 +1,10 @@
-.sub-plan {
+.plan-page {
   background-color: var(--light-grey);
 }
 
 /* Subplan page header */
 
-.sub-plan-header h2 {
+.plan__header h2 {
   padding: 2em 0 1em;
   text-align: center;
   font-family: Monts-bold;
@@ -13,7 +13,7 @@
 
 /* Subplan page content */
 
-.sub-plan-content {
+.plan__content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -23,20 +23,20 @@
   padding-bottom: 5em;
 }
 
-.sub-plan-content h2 {
+.plan__content h2 {
   font-family: Source-sans-pro;
   font-size: var(--font-size-sm);
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
-.sub-plan-content h3 {
+.plan__content h3 {
   font-family: Montserrat;
   font-size: var(--font-size-3xlg);
   font-weight: bold;
 }
 
-.sub-plan-content h3::before {
+.plan__content h3::before {
   content: "\0024";
   font-family: Montserrat;
   font-size: var(--font-size-sm);
@@ -44,7 +44,7 @@
   letter-spacing: 5px;
 }
 
-.price {
+.plan__price {
   width: 140px;
   height: 224px;
   margin: 5px 0;
@@ -55,7 +55,7 @@
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.desciption {
+.plan__details {
   margin: 20px 5px;
   padding: 0 15px;
   font-family: Source-sans-pro;
@@ -104,7 +104,7 @@ a.btn-get-started:hover::before {
 
 /* Freemium plan */
 
-.freemium {
+.plan__freemium {
   margin-bottom: 2em;
   padding: 1em 2em;
   color: var(--white);
@@ -120,7 +120,7 @@ a.btn-get-started:hover::before {
 
 /* Start-up plan */
 
-.start-up {
+.plan__start-up {
   margin-bottom: 2em;
   padding: 1em 2em;
   color: var(--white);
@@ -136,7 +136,7 @@ a.btn-get-started:hover::before {
 
 /* Business plan */
 
-.business {
+.plan__business {
   margin-bottom: 2em;
   padding: 1em 2em;
   color: var(--white);
@@ -152,7 +152,7 @@ a.btn-get-started:hover::before {
 
 /* Enterprise plan */
 
-.enterprise {
+.plan__enterprise {
   padding: 1em 2em;
   color: var(--white);
   background: linear-gradient(
@@ -168,15 +168,15 @@ a.btn-get-started:hover::before {
 /* Support screen from 768px to 1024px wide */
 
 @media screen and (min-width: 768px) {
-  .sub-plan-header h2 {
+  .plan__header h2 {
     font-size: 32px;
   }
-  .sub-plan-content {
+  .plan__content {
     display: flex;
     justify-content: space-between;
     margin: 0 2em;
   }
-  .price {
+  .plan__price {
     width: 158px;
     height: 248px;
   }
@@ -185,42 +185,42 @@ a.btn-get-started:hover::before {
 /* Support screen bigger than 1024px */
 
 @media screen and (min-width: 1440px) {
-  .sub-plan-header h2 {
+  .plan__header h2 {
     font-size: 44px;
   }
-  .sub-plan-content {
+  .plan__content {
     justify-content: space-evenly;
   }
 
-  .sub-plan-content h3 {
+  .plan__content h3 {
     font-size: 64px;
   }
 
-  .sub-plan-content h3::before {
+  .plan__content h3::before {
     font-size: 24px;
     vertical-align: 0.5em;
     letter-spacing: 5px;
   }
-  .price {
+  .plan__price {
     width: 262px;
     height: 372px;
   }
-  .desciption {
+  .plan__details {
     font-size: 16px;
   }
 
-  .freemium,
-  .start-up,
-  .business,
-  .enterprise {
+  .plan__freemium,
+  .plan__start-up,
+  .plan__business,
+  .plan__enterprise {
     padding: 2em 3em;
   }
 
-  .get-started a {
+  .plan__btn a {
     font-size: 16px;
     padding: 1em 3em;
   }
-  .get-started {
+  .plan__btn {
     margin-top: 4em;
   }
 }
