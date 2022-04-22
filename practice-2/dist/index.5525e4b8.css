@@ -184,7 +184,7 @@ template, [hidden] {
   position: relative;
 }
 
-.logo a {
+.first-page__logo a {
   text-transform: uppercase;
   font-family: Monts-bold;
   font-size: var(--font-size-md);
@@ -194,7 +194,7 @@ template, [hidden] {
   text-decoration: none;
 }
 
-.navbar {
+.first-page__navbar {
   justify-content: space-between;
   align-items: center;
   margin: 0 1em;
@@ -207,18 +207,18 @@ template, [hidden] {
   display: none;
 }
 
-.menu {
+.first-page__menu {
   color: var(--white);
 }
 
-.heading {
+.first-page__heading {
   color: var(--white);
   text-align: center;
   padding: 10% 15% 5%;
   position: relative;
 }
 
-.heading-title h1 {
+.first-page__heading-title h1 {
   font-family: Monts-bold;
   font-size: var(--font-size-lg);
   text-transform: uppercase;
@@ -226,7 +226,7 @@ template, [hidden] {
   font-weight: bold;
 }
 
-.heading-title p {
+.first-page__heading-title p {
   padding: 0 2em;
   font-size: 11px;
 }
@@ -249,7 +249,7 @@ template, [hidden] {
 }
 
 @media screen and (min-width: 768px) {
-  .menu {
+  .first-page__menu {
     display: none;
   }
 
@@ -279,19 +279,19 @@ template, [hidden] {
     padding: 15px 35px;
   }
 
-  .navbar {
+  .first-page__navbar {
     padding-top: 30px;
   }
 
-  .logo a {
+  .first-page__logo a {
     font-size: 30px;
   }
 
-  .heading-title h1 {
+  .first-page__heading-title h1 {
     font-size: var(--font-size-2xlg);
   }
 
-  .heading-title p {
+  .first-page__heading-title p {
     font-size: var(--font-size-xsm);
     margin: 0 2em;
     padding: 1em 8em;
@@ -304,12 +304,12 @@ template, [hidden] {
 }
 
 @media screen and (min-width: 1440px) {
-  .navbar {
+  .first-page__navbar {
     margin: 0;
     padding: 30px 0;
   }
 
-  .logo a {
+  .first-page__logo a {
     font-size: var(--font-size-3xlg);
   }
 
@@ -323,11 +323,11 @@ template, [hidden] {
     padding: 1em 3em;
   }
 
-  .heading-title h1 {
+  .first-page__heading-title h1 {
     font-size: var(--font-size-4xlg);
   }
 
-  .heading-title p {
+  .first-page__heading-title p {
     font-size: var(--font-size-md);
   }
 
