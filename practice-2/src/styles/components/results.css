@@ -1,24 +1,24 @@
-.results-head {
+.results__head {
   margin-top: 50px;
   padding: 0 20px;
   text-align: center;
 }
 
-.results-head h2 {
+.results__head h2 {
   font-family: Monts-bold;
   font-size: 20px;
 }
 
-.results-head p {
+.results__head p {
   font-family: Source-sans-pro;
   font-size: 11px;
 }
 
-.results-body {
+.results__body {
   text-align: center;
 }
 
-.statistics {
+.results__content {
   margin-top: 20px;
 }
 
@@ -27,15 +27,15 @@
   height: 108px;
 }
 
-.details {
+.results__details {
   font-family: Source-sans-pro;
 }
-.details h3 {
+.results__details h3 {
   font-size: 12px;
   margin-top: 1em;
 }
 
-.details p {
+.results__details p {
   font-size: 11px;
   /* margin-top: 1em;
   padding: 0 8em; */
@@ -43,24 +43,24 @@
 }
 
 @media screen and (min-width: 768px) {
-  .results-head h2 {
+  .results__head h2 {
     font-size: 32px;
   }
-  .results-head p {
+  .results__head p {
     margin-top: 2em;
   }
 
-  .results-body {
+  .results__body {
     display: flex;
     justify-content: center;
     margin: 3em 1em;
   }
 }
 @media screen and (min-width: 1440px) {
-  .results-head h2 {
+  .results__head h2 {
     font-size: 44px;
   }
-  .results-head p {
+  .results__head p {
     font-size: 16px;
   }
 
@@ -69,11 +69,11 @@
     height: 204px;
   }
 
-  .details h3 {
+  .results__details h3 {
     font-size: 18px;
   }
 
-  .details p {
+  .results__details p {
     font-size: 16px;
   }
 }
