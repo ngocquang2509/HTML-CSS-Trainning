@@ -8,7 +8,7 @@
   text-align: center;
 }
 
-.form-head {
+.form__header {
   margin-bottom: 30px;
   padding-top: 50px;
   color: #fff;
@@ -33,7 +33,7 @@
   margin-top: 30px;
 }
 
-.input-box {
+.form__input-box {
   margin: 20px 30px;
 }
 
@@ -48,7 +48,7 @@
   outline: none;
 }
 
-.has-account a {
+.form__link a {
   font-family: Source-sans-pro;
   font-size: 11px;
   color: #ebcb80;
@@ -66,7 +66,7 @@
 }
 
 @media screen and (min-width: 720px) {
-  .form-head {
+  .form__head {
     font-size: 28px;
     margin-bottom: 2em;
   }
@@ -81,7 +81,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .form-head {
+  .form__head {
     font-size: 44px;
   }
 
@@ -94,7 +94,7 @@
     font-size: 16px;
   }
 
-  .has-account a {
+  .form__link a {
     font-size: var(--font-size-md);
   }
 }
