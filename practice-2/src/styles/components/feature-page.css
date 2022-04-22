@@ -2,62 +2,62 @@
   width: 100%;
 }
 
-.feature-header {
+.feature__header {
   font-family: Monts-bold;
   text-align: center;
 }
 
-.feature-header h2 {
+.feature__header h2 {
   font-size: 20px;
   padding: 2em 0 0.5em;
 }
 
-.feature-header h3 {
+.feature__header h3 {
   font-size: 12px;
   text-transform: uppercase;
 }
 
-.feature-body {
+.feature__body {
   margin: 2rem 3rem;
   display: flex;
   flex-direction: column;
 }
 
-.feature-param {
+.feature__param {
   font-family: Source-sans-pro;
   display: flex;
   margin: 1em 0;
 }
 
-.icon {
+.feature__icon {
   margin-right: 1em;
   margin-left: 0.5em;
 }
-.icon img {
+.feature__icon img {
   width: 30px;
   height: auto;
 }
 
-.feature-details h4 {
+.feature__details h4 {
   font-size: 12px;
   text-transform: uppercase;
 }
 
-.feature-details p {
+.feature__details p {
   font-size: 11px;
   margin-top: 1em;
 }
 
-.macbook-img img {
+.feature__macbook-img img {
   max-width: 100%;
   height: auto;
 }
 
 @media screen and (min-width: 768px) {
-  .feature-header h2 {
+  .feature__header h2 {
     font-size: 32px;
   }
-  .feature-body {
+  .feature__body {
     margin: 2em 0 2em 8em;
     padding: 0;
     display: flex;
@@ -65,11 +65,11 @@
     justify-content: space-between;
   }
 
-  .macbook-img {
+  .feature__macbook-img {
     overflow: hidden;
   }
 
-  .macbook-img img {
+  .feature__macbook-img img {
     width: fit-content;
     height: fit-content;
     margin: 0px 0px 0px 150px;
@@ -77,42 +77,42 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .feature-header h2 {
+  .feature__header h2 {
     font-size: 44px;
   }
 
-  .feature-header h3 {
+  .feature__header h3 {
     font-size: 18px;
   }
 
-  .feature-body {
+  .feature__body {
     margin: 3em 5em;
     padding: 0 5em;
   }
 
-  .feature-param {
+  .feature__param {
     padding-left: 5em;
   }
-  .feature-details h4 {
+  .feature__details h4 {
     font-size: 16px;
   }
 
-  .feature-details p {
+  .feature__details p {
     font-size: 16px;
     padding-right: 15em;
   }
 
-  .icon img {
+  .feature__icon img {
     width: 50px;
     height: auto;
   }
 
-  .macbook-img {
+  .feature__macbook-img {
     overflow: visible;
     /* margin-right: 15%; */
   }
 
-  .macbook-img img {
+  .feature__macbook-img img {
     width: 1000px;
     height: auto;
     margin-top: 20px;
